@@ -1,9 +1,9 @@
-function World()
+function World(props)
 {
     return(
-        <span>
-            World
-        </span>
+        <div>
+            <h1 style={{color:props.color}}>World</h1>
+        </div>
     )
 }
 export default World;

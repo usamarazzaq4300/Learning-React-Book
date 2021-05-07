@@ -1,8 +1,8 @@
-function NameCells() {
+function NameCells(props) {
     return (
         <>
-            <td>First Name</td>
-            <td>Last Name</td>
+            <span>{props.First}</span>
+            <span>{props.Second}</span>
         </>
    
     );
