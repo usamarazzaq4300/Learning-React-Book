@@ -17,7 +17,7 @@ function States() {
             <button onClick={dec}>-</button>
             counter is: {counterState}
             <button onClick={inc}>+</button>
-            <h3 id="h3" style={{ visibility: "display" }}>Negative Number</h3>
+            {/* <h3 id="h3" style={{ visibility: "display" }}>Negative Number</h3> */}
         </div>
     )
 }
